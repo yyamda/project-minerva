@@ -30,7 +30,7 @@ export default function CoursesSection() {
   <div className="p-8">
     <h1 className="text-3xl font-bold mb-8">Current Courses</h1>
     {courses.map((course) => (
-      <div
+      <div 
         key={course.id}
         className="flex items-center border border-gray-400 p-6 mb-6 pl-8"
       >

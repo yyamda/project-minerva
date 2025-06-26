@@ -65,6 +65,9 @@ export default function Learning() {
           onChange={e => setUserNotes(e.target.value)}
         />
       </div>
+      <button onClick={() => {router.push("/review");}}>
+        Review Learned Contents
+      </button>
     </div>
   );
 }

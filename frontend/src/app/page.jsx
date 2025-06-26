@@ -22,10 +22,8 @@ export default function Home() {
 
   return (
     <div>
-          <div>
-               <p>Welcome back,</p>
-               <p>{user.email}</p>
-           </div>
+        <p>Welcome back,</p>
+        <p>{user.email}</p>
       <CreateCourses />
       <CoursesSection />
     </div>
